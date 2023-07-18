@@ -7,8 +7,7 @@
 
 .container{
     max-width: 1440px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 auto;
    
 }
 .nav {
@@ -37,7 +36,7 @@
 
 .nav-2 {
     display: flex;
-    max-width: 724px;
+    width: 724px;
     height: 166px;
     margin-top: 220px;
     margin-left: 358px;
@@ -1277,4 +1276,17 @@ display: flex;
 .more a{
     text-decoration: none;
     align-items: center;
+}
+
+
+
+
+@media screen and (max-width:480px){
+    .container{
+        max-width: 327px;
+        margin: 0 auto;
+    }
+    .nav2{
+        
+    }
 }
